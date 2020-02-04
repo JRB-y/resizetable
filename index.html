@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Resizing Table</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    td,
+    th {
+      padding: 5px 15px;
+      text-align: left;
+    }
+
+    table,
+    th,
+    td {
+      border: 1px solid #000;
+    }
+  </style>
+</head>
+
+<body>
+
+  <table id="table">
+    <tr>
+      <th>Status</th>
+      <th>Method</th>
+      <th>Domain</th>
+      <th>File</th>
+      <th>Size</th>
+      <th>Timing</th>
+    </tr>
+
+  </table>
+
+  <script src="./js/resizable.js"></script>
+</body>
+
+</html>
